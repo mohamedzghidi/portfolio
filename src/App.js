@@ -11,16 +11,16 @@ import Skills from './pages/Skills'
 function App() {
   return (
     <div >
-      
+
       <BrowserRouter>
-      <Navbar />
-      <Route exact path="/"  component={Home} />
-      <Route path="/skills"  component={Skills} />
-      <Route path="/projects"  component={Projects} />
-      <Route path="/ contact"  component={Contact} />
+        <Navbar />
+        <Route exact path="/" component={Home} />
+        <Route path="/skills" component={Skills} />
+        <Route path="/projects" component={Projects} />
+        <Route path="/contact" component={Contact} />
       </BrowserRouter>
-      
-   
+
+
     </div>
   );
 }
